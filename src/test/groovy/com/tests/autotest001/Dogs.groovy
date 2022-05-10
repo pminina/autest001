@@ -8,7 +8,7 @@ import static com.codeborne.selenide.Condition.*
 class Dogs {
     @Test
     void searchDogsTest() {
-        def searchRequest = "Dog"
+        def searchRequest = "Dogs"
 
         open("https://google.com")
         def searchInput = $(By.name("q"))
